@@ -162,6 +162,57 @@ const En = () => {
                 {/* Niches */}
                 <div className="grid gap-3 grid-cols-1 md:grid-cols-2 md:mt-2 md:w-3/6 md:mx-auto">
 
+                <div onClick={e => choose_niche(e)} className={`${search !== '' && !'roblox free robux roblox++ roblox hack'.includes(search) && 'hidden'} w-full bg-gray-50 rounded-xl shadow-lg mt-4 md:my-2 relative py-8 cursor-pointer `}>
+                    <div className="locker hidden">https://ogads.com</div> {/* L O C K E R   H E R E */}
+                    <span className="absolute top-3 right-12"><AppleIcon className="text-slate-300" /></span>
+                    <span className="absolute top-3 right-5"><AndroidIcon className="text-slate-300" /></span>
+                    <div className='flex gap-3 px-3'>
+                        <div className="relative w-32 text-center justify-center align-middle items-center">
+                            <div className="absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 w-5/6 md:w-4/6">
+                                <img src='https://upload.wikimedia.org/wikipedia/commons/b/bb/Roblox_logo.png' className="image" width='100px' height='100px' /> {/* I M A G E   H E R E */}
+                            </div>
+                        </div>
+                        <div>
+                            <h6 className='text-gray-300 text-sm'>Author: <span className="text-red-300">sitedyalk.com</span></h6>
+                            <h1 className="font-bold text-gray-600 text-2xl">Roblox++</h1> {/* T I T L E   H E R E */}
+                            <p className="text-gray-400 text-sm description">This app will help you get a unlimited robux.</p> {/* D E S C R I P T I O N   H E R E */}
+                            <div className='flex'>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div onClick={e => choose_niche(e)} className={`${search !== '' && !'hna l keywords'.includes(search) && 'hidden'} w-full bg-gray-50 rounded-xl shadow-lg mt-4 md:my-2 relative py-8 cursor-pointer `}>
+                    <div className="locker hidden">Locker dyalk hna</div> {/* L O C K E R   H E R E */}
+                    <span className="absolute top-3 right-12"><AppleIcon className="text-slate-300" /></span>
+                    <span className="absolute top-3 right-5"><AndroidIcon className="text-slate-300" /></span>
+                    <div className='flex gap-3 px-3'>
+                        <div className="relative w-32 text-center justify-center align-middle items-center">
+                            <div className="absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 w-5/6 md:w-4/6">
+                                <Image src='/logo.png' className="image" width='100px' height='100px' /> {/* I M A G E   H E R E */}
+                            </div>
+                        </div>
+                        <div>
+                            <h6 className='text-gray-300 text-sm'>Author: <span className="text-red-300">domain dyalk</span></h6>
+                            <h1 className="font-bold text-gray-600 text-2xl">Title dyal niche</h1> {/* T I T L E   H E R E */}
+                            <p className="text-gray-400 text-sm description">Description</p> {/* D E S C R I P T I O N   H E R E */}
+                            <div className='flex'>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                                <StarIcon className='mt-2 text-yellow-400'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                     {/* instagram++ */}
                     <div onClick={e => choose_niche(e)} className={`${search !== '' && !'instagram insta insta++ instagram++'.includes(search.toLowerCase()) && 'hidden'} w-full bg-gray-50 rounded-xl shadow-lg mt-4 md:my-2 relative py-8 cursor-pointer `}>
                         <div className="locker hidden">https://google.com</div>
